@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    height: 100vh;
+    font: 14px;
+}
+
+body{
+    background-color: #2e2e2e;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+    /*color: #ffffff;*/
+}
+
+/***.degrade{
+    background: linear-gradient(to right, #fbad50, #bc2a8d);
+}*/
+
+/*Estilo do header*/
+header{
+    text-align: center;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+header img{
+    max-width: 500px;
+    margin-bottom: 70px;
+    margin-top: 10%;
+}
+
+header h1{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+/*Estilo dos botões*/
+section.imagens{
+    display: flex;
+    gap: 20px;
+    margin: auto;
+    align-items: center;
+    max-width: 100%;
+}
+section.imagens img{
+    max-width: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 9px #1a1919;
+    transition: 0.2s;
+}
+
+section.imagens img:hover{
+    transform: scale(1.15);
+}
+
+section.botao{
+    align-items: center;
+    max-width: 450px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+section.botao a{
+    align-items: center;
+    margin: auto;
+}
+
+section.botao a button i{
+    font-size: 1.5em;
+}
+
+section.botao p{
+    margin-bottom: 30px;
+    font-size: 1.3em;
+}
+
+section.botao a button{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #4da735;
+    /*background: linear-gradient(to right, #fbad50, #bc2a8d);*/
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+section.botao a button:hover{
+    transform: scale(1.05);
+}
+
+
+/*Estilo dos footer*/
+footer{
+    text-align: center;
+    /*position: absolute;*/
+    bottom: 0%;
+    width: 100%;
+    color: #ffffff;
+    margin-top: 10%;
+}
+
+footer p{
+    text-align: center;
+    padding-bottom: 5px;
+}

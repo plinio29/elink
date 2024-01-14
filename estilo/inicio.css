@@ -137,6 +137,17 @@ footer p{
 }
 
 /*Media querie*/
+@media screen and (max-width: 900px){
+    
+    footer{
+        /*position: absolute;*/
+        bottom: 0%;
+        width: 100%;
+        color: #ffffff;
+        margin-top: 40%;
+    }
+}
+
 @media screen and (max-width: 700px){
     .imagens .card1{
         max-width: 30%;

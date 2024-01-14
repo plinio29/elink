@@ -45,7 +45,7 @@ header{
 }
 
 header img{
-    max-width: 500px;
+    max-width: 40%;
     margin-bottom: 70px;
     margin-top: 10%;
 }
@@ -57,13 +57,15 @@ header h1{
     font-weight: 300;
 }
 
-/*Estilo dos botões*/
+/*Estilo dos cards*/
 section.imagens{
     display: flex;
     gap: 20px;
     margin: auto;
     align-items: center;
     max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 section.imagens img{
     max-width: 200px;
@@ -76,6 +78,7 @@ section.imagens img:hover{
     transform: scale(1.15);
 }
 
+/*Estilo dos botão*/
 section.botao{
     align-items: center;
     max-width: 450px;
@@ -131,4 +134,55 @@ footer{
 footer p{
     text-align: center;
     padding-bottom: 5px;
+}
+
+/*Media querie*/
+@media screen and (max-width: 700px){
+    .imagens .card1{
+        max-width: 30%;
+    }
+    .imagens .card2{
+        max-width: 30%;
+    }
+    .imagens .card3{
+        max-width: 30%;
+    }
+    .imagens .card4{
+        max-width: 30%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    header img{
+        max-width: 70%;
+        margin-bottom: 50px;
+        margin-top: 15%;
+    }
+    .imagens .card1{
+        max-width: 70%;
+        margin: auto;
+    }
+    .imagens .card2{
+        display: none;
+    }
+    .imagens .card3{
+        display: none;
+    }
+    .imagens .card4{
+        display: none;
+    }
+
+    header h1{
+        font-size: 1.2em;
+        margin-bottom: 10px;
+        color: #ffffff;
+        font-weight: 300;
+        text-align: left;
+    }
+    
+    section.botao p{
+        margin-bottom: 30px;
+        font-size: 1.2em;
+    }
+
 }

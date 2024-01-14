@@ -43,59 +43,43 @@ header{
     margin-bottom: 40px;
 }
 
-header img{
-    max-width: 120px;
-    margin-bottom: 20px;
-    border-radius: 60px;
-}
 
 header h1{
     font-size: 2em;
+    margin-top: 70px;
     margin-bottom: 10px;
-    color: #797979;
+    color: #fcfcfc;
     font-weight: 300;
 }
 
-/*Estilo dos botões*/
-section.botoes-links{
-    display: flex;
-    flex-direction: column;
+/*Estilo dos links da lista*/
+.paginas{
+    max-width: 550px;
     gap: 20px;
+    margin: auto;
 }
 
-a.link button{
-    width: 100%;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: none;
-    border-radius: 20px;
+.paginas ol{
+ margin: auto;
+} 
+.paginas ol li{
+    color: #ffffff;   
+    margin-bottom: 6px;
+    transition: 0.2s; 
+}
+
+.paginas ol li a{
     font-size: 1.2em;
     cursor: pointer;
-    background: linear-gradient(to right, #fbad50, #bc2a8d);
     color: #ffffff;
-    transition: 0.2s;
+    transition: 0.2s; 
 }
-a.link i{
+
+.paginas ol li:hover{
+    transform: scale(1.10);
+}
+
+.paginas ol li a:hover{
     font-size: 1.5em;
-}
-
-a.link button:hover{
-    transform: scale(1.05);
-}
-
-/*Estilo dos footer*/
-footer{
-    text-align: center;
-    /*position: absolute;*/
-    bottom: 0%;
-    width: 100%;
-    color: #ffffff;
-    margin-top: 10%;
-}
-
-footer p{
-    text-align: center;
-    padding-bottom: 5px;
+    color: #0084ff;
 }

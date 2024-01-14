@@ -18,7 +18,6 @@ body{
 }
 
 .container{
-    height: 100%;
     max-width: 100%;
     margin: 0 auto;
     display: flex;
@@ -45,9 +44,9 @@ header{
 }
 
 header img{
-    max-width: 40%;
+    max-width: 300px;
     margin-bottom: 70px;
-    margin-top: 10%;
+    margin-top: 70px;
 }
 
 header h1{
@@ -84,6 +83,7 @@ section.botao{
     max-width: 450px;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 70px;
 }
 
 section.botao a{
@@ -128,7 +128,6 @@ footer{
     bottom: 0%;
     width: 100%;
     color: #ffffff;
-    margin-top: 10%;
 }
 
 footer p{
@@ -137,16 +136,6 @@ footer p{
 }
 
 /*Media querie*/
-@media screen and (max-width: 900px){
-    
-    footer{
-        /*position: absolute;*/
-        bottom: 0%;
-        width: 100%;
-        color: #ffffff;
-        margin-top: 40%;
-    }
-}
 
 @media screen and (max-width: 700px){
     .imagens .card1{
@@ -195,13 +184,5 @@ footer p{
         margin-bottom: 25px;
         font-size: 1.2em;
         text-align: center;
-    }
-    footer{
-        text-align: center;
-        /*position: absolute;*/
-        bottom: 0%;
-        width: 100%;
-        color: #ffffff;
-        margin-top: 200px;
     }
 }

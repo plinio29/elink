@@ -64,16 +64,16 @@ header h1{
     align-items: center;
     max-width: 100%;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
-.imagens img{
+.imagens a img{
     max-width: 200px;
     border-radius: 20px;
     box-shadow: 5px 5px 9px #1a1919;
     transition: 0.2s;
 }
 
-.imagens img:hover{
+.imagens a img:hover{
     transform: scale(1.15);
 }
 
@@ -167,17 +167,12 @@ footer p{
 /*Media querie*/
 
 @media screen and (max-width: 700px){
-    .imagens .card1{
-        max-width: 30%;
+    
+    .imagens a{
+        text-align: center;
     }
-    .imagens .card2{
-        max-width: 30%;
-    }
-    .imagens .card3{
-        max-width: 30%;
-    }
-    .imagens .card4{
-        max-width: 30%;
+    .imagens a img{
+        width: 100%;
     }
 
     .botao{
@@ -207,17 +202,17 @@ footer p{
         margin-top: 70px;
     }
 
-    .imagens .card1{
+    .imagens a .card1{
         max-width: 70%;
         margin: auto;
     }
-    .imagens .card2{
+    .imagens a .card2{
         display: none;
     }
-    .imagens .card3{
+    .imagens a .card3{
         display: none;
     }
-    .imagens .card4{
+    .imagens a .card4{
         display: none;
     }
 

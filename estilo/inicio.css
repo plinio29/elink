@@ -57,6 +57,11 @@ header h1{
 }
 
 /*Estilo dos cards*/
+.modelos{
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+}
 .imagens{
     display: flex;
     gap: 20px;
@@ -77,6 +82,10 @@ header h1{
     transform: scale(1.15);
 }
 
+.imagens .botoes{
+    display: none;
+}
+
 /*Estilo dos botão*/
 .botao{
     align-items: center;
@@ -86,7 +95,7 @@ header h1{
     margin-bottom: 70px;
     border-radius: 20px;
     background-color: #1a1919;
-    box-shadow: 5px 5px 9px #1a1919;
+    box-shadow: 5px 5px 9px #1a1919a8;
 }
 
 .botao h1{
@@ -202,9 +211,19 @@ footer p{
         margin-top: 70px;
     }
 
-    .imagens a .card1{
-        max-width: 70%;
+    .modelos{
+        width: 95%;
+        padding-top: 20px;
         margin: auto;
+        border-radius: 20px;
+        background-color: #1a1919;
+        box-shadow: 5px 5px 8px #1a1919a8;
+    }
+
+    .imagens a .card1{
+        max-width: 85%;
+        margin: auto;
+        box-shadow: 5px 5px 8px #141414;
     }
     .imagens a .card2{
         display: none;
@@ -215,6 +234,26 @@ footer p{
     .imagens a .card4{
         display: none;
     }
+
+    .imagens .botoes{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+        
+    }
+
+    .imagens .botoes button{
+        margin: 10px;
+        border: none;
+        background-color: #1a191900;
+    }
+
+    .imagens .botoes button i{
+        font-size: 6em;
+        color: #ffffff;
+    }
+    
 
     header h1{
         font-size: 1.2em;

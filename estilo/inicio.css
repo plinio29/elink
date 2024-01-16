@@ -148,6 +148,7 @@ header h1{
     margin-top: 70px;
     font-size: 1.2em;
     margin-bottom: 50px;
+    color: #cacaca;
 }
 
 .botao .beneficios .vantagem{
@@ -165,7 +166,7 @@ footer{
     /*position: absolute;*/
     bottom: 0%;
     width: 100%;
-    color: #ffffff;
+    color: #cacaca;
 }
 
 footer p{
@@ -239,7 +240,7 @@ footer p{
         display: block;
         width: 100%;
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         
     }
 
@@ -251,8 +252,8 @@ footer p{
     }
 
     .imagens .botoes button i{
-        font-size: 6em;
-        color: #ffffff;
+        font-size: 4em;
+        color: #cacaca;
     }
 
     .imagens .botoes button:hover{

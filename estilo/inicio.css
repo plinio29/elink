@@ -50,7 +50,7 @@ header img{
 }
 
 header h1{
-    font-size: 1.5em;
+    font-size: 1.7em;
     margin-bottom: 10px;
     color: #ffffff;
     font-weight: 300;
@@ -247,16 +247,21 @@ footer p{
         margin: 10px;
         border: none;
         background-color: #1a191900;
+        transition: 0.2s;
     }
 
     .imagens .botoes button i{
         font-size: 6em;
         color: #ffffff;
     }
+
+    .imagens .botoes button:hover{
+        transform: scale(1.20);
+    }
     
 
     header h1{
-        font-size: 1.2em;
+        font-size: 1.7em;
         margin-bottom: 5px;
         color: #ffffff;
         font-weight: 300;

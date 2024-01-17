@@ -22,12 +22,12 @@ function alteracard1(){
             break
         case 3:
             card.src = 'imagens/logo/elink3.jpg'
-            link.href = 'pagina3.html'
+            link.href = 'pagina4.html'
             numero = numero + 1
             break
         case 4:
             card.src = 'imagens/logo/elink4.jpg'
-            link.href = 'pagina4.html'
+            link.href = 'pagina3.html'
             break
         default:
             card.src = 'imagens/logo/elink1.jpg'
@@ -41,7 +41,7 @@ function alteracard2(){
     switch(numero){
         case 4:
             card.src = 'imagens/logo/elink3.jpg'
-            link.href = 'pagina3.html'
+            link.href = 'pagina4.html'
             numero = numero - 1
             break
         case 3:

@@ -56,6 +56,9 @@ header h1{
     font-weight: 300;
 }
 
+header p{
+    font-size: 1.2em;
+}
 /*Estilo dos cards*/
 .modelos{
     width: 90%;

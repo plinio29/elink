@@ -3,75 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>linkezin</title>
-    <!--Link do Icone-->
-    <link rel="shortcut icon" href="imagens/logo/elink-ico.ico" type="image/x-icon">
+    <title>Cardápio Digital</title>
+    <!--Link Favicon-->
+    <link rel="shortcut icon" href="imagens/logo/icone-hamburger.ico" type="image/x-icon">
+    <!--Ícones do bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!--Link do CSS-->
+    <!--Link CSS-->
     <link rel="stylesheet" href="estilo/inicio.css">
 </head>
 <body>
-    <div class="container">
-        <!--Cabeça da página-->
-        <header>
-            <img src="imagens/logo/logo-linkezin.png" alt="Logotipo">
-            <h1>Todas as suas redes e sites em um único link!</h1>
-        </header>
-        
-        <!--Cards-->
-        <div class="modelos">
-            <section class="imagens">
-                <a href="/modelos/pagina1.html" target="_blank" id="link1"><img class="card1" id="card1" src="imagens/modelos/elink1.jpg" alt="modelo1"></a>
-                <a href="/modelos/pagina2.html" target="_blank"><img class="card2" src="imagens/modelos/elink2.jpg" alt="modelo2"></a>
-                <a href="/modelos/pagina4.html" target="_blank"><img class="card3" src="imagens/modelos/elink3.jpg" alt="modelo3"></a>
-                <a href="/modelos/pagina3.html" target="_blank"><img class="card4" src="imagens/modelos/elink4.jpg" alt="modelo4"></a>
-                <div class="botoes">
-                    <button id="btn-esquerdo">
-                        <i class="bi bi-arrow-left-circle-fill"></i>
-                    </button>
-                    <button id="btn-direito">
-                        <i class="bi bi-arrow-right-circle-fill"></i>
-                    </button>
-                </div>
-            </section>
-            
-        </div>
+    <!--Cabeça da Página-->
+    <header>
+        <!--Logo header-->
+        <a class="logo-cabeca" href="#"><img src="imagens/logo/LOGOTIPO-LANCHONETE.png" alt="logotipo"></a>
 
-        <!--Botão-->
-        <section class="botao">
-            <h1>R$ 4,99/Mês</h1>
-            <p>Entre em contato pelo nosso Whatsapp.</p>
+        <!--Menu header-->
+        <nav id="nav">
+            <button id="botao-mobile"><!--Menu-->
+                <span id="hamburger"></span>
+            </button>
+            <ul class="menu-cabeca">
+                <!--instagram-->
+                <li><a href="#">
+                    <i class="bi bi-instagram"></i>
+                    <p>@codnome_tec</p>
+                </a></li>
+                <!--Whatsapp-->
+                <li><a href="#">
+                    <i class="bi bi-whatsapp"></i>
+                    <p>(14) 99999-9999</p>
+                </a></li>
+                <!--Email-->
+                <li><a href="#">
+                    <i class="bi bi-envelope-at-fill"></i>
+                    <p>codnometec@gmail.com</p>
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Corpo da página-->
+    <main>
+
+        <!--Perfil da empresa-->
+        <section class="apresentacao">
+            <div class="chamativo">
+
+                <!--texto de apresentação-->
+                <div class="texto-btn">
+                    <h1>Seu cardapio na tela do celular ou notebook em qualquer lugar do mundo.</h1>
+                    <a href="#" target="_blank">
+                        <button>
+                            <span>Contato</span>
+                            <i class="bi bi-whatsapp"></i>
+                        </button>
+                    </a>
+                </div>
+                <!--imagem de apresentação-->
+                <div class="img-pfil">
+                    <img src="imagens/pagina-inicial/1-lanches-note-cell.png" alt="celular-notebook">
+                </div>
+
+            </div>  
+        </section>
+
+        <!--Corpo da página-->
+        <section class="corpo">
+            <!--texto de modelos-->
+            <div class="modelos">
+                <div class="modelos-btn">
+
+                    <h1>Modelos e combinações de cores pensados especialmente para o seu negócio.</h1>
+
+                    <a href="#" target="_blank">
+                        <button>
+                            <span>Ver modelos</span>
+                        </button>
+                    </a>
+
+                </div>
+                <!--imagem referente a modelos-->
+                <img class="corpo-img" src="imagens/pagina-inicial/2-lanches-cell.png" alt="celular-cardapio">
+            </div>
+            <!--botão de amosta de modelos-->
             <a href="#" target="_blank">
                 <button>
-                    <span>Whatsapp</span>
-                    <i class="bi bi-whatsapp"></i>
+                    <span>Ver modelos</span>
                 </button>
             </a>
-            <div class="beneficios">
-                <div class="vantagem">
-                    <i class="bi bi-check-circle-fill"></i>
-                    <span>Todas as suas redes e sites em apenas um link.</span>
+        </section>
+
+        <section class="contratos">
+            <!--Título planos-->
+            <h1>Planos</h1>
+
+            <div class="cards">
+
+                <!--Card1-->
+                <div class="card">
+                    <h1 class="plano">Básico</h1>
+                    <h1>R$ 14,99</h1>
+                    <div class="texto">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <p>Alterações periódicas (mensais).</p>
+                    </div>
+                    <a href="#">
+                        <button>
+                            <span>Whatsapp</span>
+                            <i class="bi bi-whatsapp"></i>
+                        </button>
+                    </a>
                 </div>
-                <div class="vantagem">
-                    <i class="bi bi-check-circle-fill"></i>
-                    <span>Mais visibilidade para suas redes ou negócio.</span>
-                </div>
-                <div class="vantagem">
-                    <i class="bi bi-check-circle-fill"></i>
-                    <span>Acesso rápido e prático.</span>
-                </div>
-                <div class="vantagem">
-                    <i class="bi bi-check-circle-fill"></i>
-                    <span>Ideal para microempreendedores e influencers.</span>
+
+                <!--Card2-->
+                <div class="card">
+                    <h1 class="plano">Completo</h1>
+                    <h1>R$ 49,99</h1>
+                    <div class="texto">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <p>Alterações diárias, semanais e mensais.</p>
+                    </div>
+                    <a href="#">
+                        <button>
+                            <span>Whatsapp</span>
+                            <i class="bi bi-whatsapp"></i>
+                        </button>
+                    </a>
                 </div>
             </div>
         </section>
-    </div>
 
-    <!--Créditos-->
+    </main>
+
+    <!--Pés da página-->
     <footer>
         <p class="creditos">Desenvolvido por <strong>codnome tecnologia</strong><br> &#169;Todos os direitos reservados</p>
     </footer>
-    <script src="script/imagem.js"></script>
+
+    <!--Script da página-->
+    <script src="script/script.js"></script>
+    <script src="script/itens.js" defer></script>
+    <script src="script/funcaohora.js" defer></script>
 </body>
 </html>
